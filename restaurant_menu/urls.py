@@ -4,5 +4,5 @@ from .import views
 
 urlpatterns = [
     path('', views.MenuList.as_view(), name='home'),
-    path('menu_item_detail/', views.MenuItemDetail)
+    # path('menu_item_detail/', views.MenuItemDetail)
 ]
