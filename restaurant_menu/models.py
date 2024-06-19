@@ -4,7 +4,8 @@ from django.contrib.auth.models import User
 MEAL_TYPE = (
     ("starters", "Starters"),
     ("salads", "Salads"),
-    ("main_dishes", "Main_Dishes")
+    ("main_dishes", "Main Dishes"),
+    ("desserts", "Desserts")
 )
 
 STATUS = (
